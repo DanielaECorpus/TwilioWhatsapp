@@ -1,0 +1,24 @@
+.card{
+    width: 70% !important;
+    margin: auto;
+
+    background: rgba(164,179,87,1);
+    background: -moz-linear-gradient(left, rgba(164,179,87,1) 4%, rgba(152,178,84,1) 9%, rgba(119,176,76,1) 22%, rgba(7,168,50,1) 67%);
+    background: -webkit-gradient(left top, right top, color-stop(4%, rgba(164,179,87,1)), color-stop(9%, rgba(152,178,84,1)), color-stop(22%, rgba(119,176,76,1)), color-stop(67%, rgba(7,168,50,1)));
+    background: -webkit-linear-gradient(left, rgba(164,179,87,1) 4%, rgba(152,178,84,1) 9%, rgba(119,176,76,1) 22%, rgba(7,168,50,1) 67%);
+    background: -o-linear-gradient(left, rgba(164,179,87,1) 4%, rgba(152,178,84,1) 9%, rgba(119,176,76,1) 22%, rgba(7,168,50,1) 67%);
+    background: -ms-linear-gradient(left, rgba(164,179,87,1) 4%, rgba(152,178,84,1) 9%, rgba(119,176,76,1) 22%, rgba(7,168,50,1) 67%);
+    background: linear-gradient(to right, rgba(164,179,87,1) 4%, rgba(152,178,84,1) 9%, rgba(119,176,76,1) 22%, rgba(7,168,50,1) 67%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#07a832', GradientType=1 );
+
+
+    border-radius: 20px;
+    -webkit-box-shadow: 8px 18px 46px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 18px 46px -10px rgba(0,0,0,0.75);
+    box-shadow: 8px 18px 46px -10px rgba(0,0,0,0.75);
+}
+
+.card-text{
+    margin: auto;
+    font-weight: bold;
+}
