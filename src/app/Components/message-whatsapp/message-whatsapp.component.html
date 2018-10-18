@@ -2,10 +2,10 @@
     <div class="card-body">
       <h5 class="card-title" style="text-align: center;">Enviar Mensaje</h5>
       <label for="">Mensaje: </label>
-      <input type="text" class="form-control" placeholder="Escribe el mensaje aqui...">
+      <input type="text" class="form-control" placeholder="Escribe el mensaje aqui..." [(ngModel)]="message">
       <label for="">Numero de telefono:</label>
-      <input type="text" class="form-control" placeholder="Numero de telefono 10 digitos...">
+      <input type="text" class="form-control" placeholder="Numero de telefono 10 digitos..." [(ngModel)]="number">
       <br>
-      <button class="btn btn-dark form-control">Enviar Mensaje</button>
+      <button class="btn btn-dark form-control" (click)="SendMessage()">Enviar Mensaje</button>
     </div>
   </div>
