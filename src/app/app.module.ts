@@ -7,6 +7,9 @@ import { MessageWhatsappComponent } from './Components/message-whatsapp/message-
 import { InstructionsComponent } from './Components/instructions/instructions.component';
 import { MessageListComponent } from './Components/message-list/message-list.component';
 import { HomeComponent } from './Components/home/home.component';
+import { HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,8 @@ import { HomeComponent } from './Components/home/home.component';
     HomeComponent
   ],
   imports: [
+    HttpModule,
+    HttpClientModule,
     BrowserModule,
     NgbModule.forRoot()
   ],
